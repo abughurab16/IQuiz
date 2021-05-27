@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Islamic Quiz</title>
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 id="title">Quick Islam Questions</h1>
+        <p id="description">Islamic Questions quiz</p>
+      </header>
+      <form action="" id="survey-form">
+        <div id="first-params">
+            <label for="name" id="name-label">Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Abu Nassr"
+            />
+            <br />
+            <label for="email" id="email-label">Email</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="name@gmail.com"
+            />
+            <br />
+            <label for="number" id="number-label">Age(Optional)</label>
+            <br />
+            <input
+              type="number"
+              name="number"
+              id="number"
+              value="0"
+              min="0"
+              max="20"
+              placeholder="15"
+            />
+        </div>
+        <br />
+        <label for="first-prophet">Name of first prophet?</label>
+        <br />
+        <select name="first-prophet" id="dropdown" size="1">
+          <option value="Isa">Isa عليه السلام</option>
+          <option value="Ismaeel">Isma'el عليه السلام</option>
+          <option value="Adam">Adam عليه السلام</option>
+          <option value="Yaqub">Mohammad عليه السلام</option>
+        </select>
+        <br />
+        <p>Holy Book sent down to Mankind?</p>
+        <input type="radio" name="hbsdtmk" value="Torah" id="Torah" />
+        <label for="red">Torah</label>
+        <br />
+        <input type="radio" name="hbsdtmk" value="Injeel" id="Injeel" />
+        <label for="Injeel">Injeel</label>
+        <br />
+        <input type="radio" name="hbsdtmk" id="Quran" value="Quran" />
+        <label for="Quran">Quran</label>
+        <br />
+        <p>Pick All Known Angel Names</p>
+        <input type="checkbox" name="Vangels" id="jibreel" value="Jibreel" />
+        <label for="jibreel">Jibreel</label>
+        <br />
+        <input type="checkbox" name="Vangels" id="israfeel" value="Israfeel" />
+        <label for="israfeel">Israfeel</label>
+        <br />
+        <input type="checkbox" name="Yusuf" id="Yusuf" value="Yusuf" />
+        <label for="Yusuf">Yusuf</label>
+        <br />
+        
+        <div id="div-remark">
+            <p>Additions or Remarks leave here.</p>
+            <textarea name="remarks" id="remarks" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <div id="btn-submit">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

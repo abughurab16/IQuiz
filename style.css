@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  font-size: 0.65em;
+  font-weight:600;
+}
+
+#main {
+  background-color: rgba(151, 214, 138, 0.733);
+  padding: 0;
+  margin: 0;
+}
+
+#main header h1 {
+  text-align: center;
+  padding-top: 0.95em;
+}
+
+#main header p {
+  text-align: center;
+  font-size: 1.4em;
+  margin: 12px;
+}
+
+#survey-form {
+  background-color: rgb(199, 230, 181);
+  padding: 12px;
+}
+
+#survey-form input {
+  margin-bottom: 1em;
+  margin-top: 0.3em;
+}
+
+#first-params input{
+    width: 100%;
+}
+
+#btn-submit {
+  text-align: center;
+}
+
+#btn-submit button {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(77, 95, 105);
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+#btn-submit button:hover {
+  background-color: rgb(35, 214, 214);
+}
+
+#survey-form label {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#survey-form select {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  width: 100%
+}
+
+#div-remark {
+  text-align: center;
+  margin-top: 9px;
+}
+
+textarea {
+    margin-top: 14px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 411px) {
+    body {
+        font-size: 1.4em;
+      }
+      #survey-form label {
+        font-size: .95em;
+      }
+    
+      #survey-form input {
+        font-size: .85em;
+      }
+    
+      #btn-submit button {
+        font-size: .75em;
+        padding: 8px;
+      }
+
+      #survey-form select {
+          font-size: 1.95em;
+      }
+}
+
+@media screen and (min-width: 768px)  and (max-width: 768px){
+  body {
+    font-size: 1.8em;
+  }
+  #survey-form label {
+    font-size: 1em;
+  }
+
+  #survey-form input {
+    font-size: 1em;
+  }
+
+  #btn-submit button {
+    font-size: 1em;
+    padding: 8px;
+  }
+
+  p {
+      font-size: 1.7em;
+  }
+
+  #survey-form select {
+      font-size: 1.2em;
+  }
+}
+
+@media screen and (min-height: 736px ) {
+    body {
+        font-size: 1.1em;
+      }
+      #survey-form label {
+        font-size: 1.1em;
+      }
+    
+      #survey-form input {
+        font-size: 1em;
+      }
+    
+      #btn-submit button {
+        font-size: 1em;
+        padding: 8px;
+      }
+
+    textarea {
+        font-size: 1.95em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    #survey-form select {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.2em;
+      }
+      #survey-form label {
+        font-size: 1.7em;
+      }
+    
+      #survey-form input {
+        font-size: 2.6em;
+      }
+    
+      #btn-submit button {
+        font-size: 2.4em;
+        padding: 10px;
+      }
+
+    textarea {
+        font-size: 1.95em;
+    }
+    
+    p  {
+        font-size: 1.8em;
+    }
+    #survey-form select {
+        font-size: 2.2em;
+    }
+}
